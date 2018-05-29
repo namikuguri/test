@@ -1,0 +1,18 @@
+{
+  "name": "feed-by-semantic-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass --include-path scss style.scss style.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.3.1"
+  }
+}
